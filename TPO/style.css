@@ -1,0 +1,66 @@
+body{
+    background-image:url("crosfit1.jpg" );
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment:fixed;
+    margin: 0;
+    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(119, 30, 30);
+    
+  }
+  
+  li {
+    float: right;
+
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  @media only screen and (max-width: 700px) {
+    .Contenedor {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+}
+  
+  @media only screen and (max-width: 500px) {
+    .Contenedor {
+      width: 100%;
+    }
+}
+.contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1{
+    font-family:'Oswald', sans-serif;
+    color:white;
+    font-weight: bold;
+    position: fixed;
+    text-align: center;
+    font-size: 65px;
+    float: center;
+    margin: 12px;
+    padding: 12PX;
+    overflow: hidden
+
+}
